@@ -1,6 +1,6 @@
 import streamlit as st
 
-
+st.sidebar.radio("Go to section:", ["My Projects", "My Skills", "My Personality & Work Ethic"])
 
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
@@ -15,7 +15,7 @@ with col2:
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write("\n")
-st.subheader("Projects", anchor=False)
+st.subheader("My Projects", anchor=False)
 st.write(
     """
     - 7 Years experience extracting actionable insights from data
@@ -27,7 +27,7 @@ st.write(
 
 # --- SKILLS ---
 st.write("\n")
-st.subheader("Hard Skills", anchor=False)
+st.subheader("My Skills", anchor=False)
 st.write(
     """
     - Programming: Python (Scikit-learn, Pandas, e.t.c), SQL.
