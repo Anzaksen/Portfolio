@@ -115,4 +115,3 @@ with co4:
         </a>
     </p>
     ''', unsafe_allow_html=True)
-    st.markdown("[Gmail](mailto:dapealexander@gmail.com)")
