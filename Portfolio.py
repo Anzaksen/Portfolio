@@ -73,4 +73,5 @@ with co2:
 with co3:
     st.markdown("[Twitter](https://twitter.com/DAPE_AN)")
 with co4:
+    st.image('./mail.png')
     st.markdown("[Gmail](mailto:dapealexander@gmail.com)")
