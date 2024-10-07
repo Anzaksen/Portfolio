@@ -17,6 +17,7 @@ with col2:
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write("\n")
+st.markdown("---")
 st.markdown("# My Projects #")
 st.write(
     """
@@ -30,6 +31,7 @@ st.write(
 # --- SKILLS ---
 st.write("\n")
 st.markdown("# My Skills #")
+st.markdown("---")
 st.write(
     """
     - Programming: Python (Scikit-learn, Pandas, e.t.c), SQL.
@@ -42,6 +44,7 @@ st.write(
 # --- About ---
 st.write("\n")
 st.markdown("# My Personality & Work Ethic #")
+st.markdown("---")
 st.write(
     """
    I am a hard worker and always willing to go the extra mile to get the job done. 
