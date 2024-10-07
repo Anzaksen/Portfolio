@@ -40,13 +40,17 @@ st.write(
 st.write("\n")
 st.markdown("# My Skills #")
 st.markdown("---")
-st.write(
-    """
-    - Programming: Python (Scikit-learn, Pandas, e.t.c), SQL.
-    - Data Visualization: PowerBi, , Plotly.
-    - Modeling: Machine Learning, Deep learning
-    """
-)
+cl1, cl2 = st.columns(2, gap="small", vertical_alignment="center")
+with cl1:
+    st.write(
+        """
+        - Programming: Python (Scikit-learn, Pandas, e.t.c), SQL.
+        - Data Visualization: PowerBi, , Plotly.
+        - Modeling: Machine Learning, Deep learning
+        """
+    )
+with cl2:
+    
 
 
 # --- About ---
