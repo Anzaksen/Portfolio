@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.sidebar.radio("Go to section:", ["My Projects", "My Skills", "My Personality & Work Ethic"])
+st.sidebar.radio("Go to section:", ["Introduction", "My Projects", "My Skills", "My Personality & Work Ethic"])
 
 st.markdown("# Introduction #")
 # --- HERO SECTION ---
@@ -16,7 +16,7 @@ with col2:
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write("\n")
-st.markdown("### My Projects ###")
+st.markdown("# My Projects #")
 st.write(
     """
     - 7 Years experience extracting actionable insights from data
@@ -28,7 +28,7 @@ st.write(
 
 # --- SKILLS ---
 st.write("\n")
-st.subheader("My Skills", anchor=False)
+st.markdown("# My Skills #")
 st.write(
     """
     - Programming: Python (Scikit-learn, Pandas, e.t.c), SQL.
@@ -40,7 +40,7 @@ st.write(
 
 # --- About ---
 st.write("\n")
-st.subheader("My Personality & Work Ethic", anchor=False)
+st.markdown("# My Personality & Work Ethic #", anchor=False)
 st.write(
     """
    I am a hard worker and always willing to go the extra mile to get the job done. 
