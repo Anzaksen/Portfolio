@@ -67,11 +67,17 @@ st.markdown("# Contact Me #")
 st.markdown("---")
 co1, co2, co3, co4 = st.columns(4, gap="small", vertical_alignment="center")
 with co1:
+    st.markdown('''
+    <a href="https://www.linkedin.com/in/alexanderdape" target="_blank">
+        <span class="material-icons" style="font-size:48px;color:#4CAF50;">
+            Contact Mail
+        </span>
+    </a>
+    ''', unsafe_allow_html=True)
     st.markdown("[LinkedIn](https://www.linkedin.com/in/alexanderdape)")
 with co2:
     st.markdown("[Github](https://github.com/anzaksen)")
 with co3:
     st.markdown("[Twitter](https://twitter.com/DAPE_AN)")
 with co4:
-    st.image('./mail.png')
     st.markdown("[Gmail](mailto:dapealexander@gmail.com)")
