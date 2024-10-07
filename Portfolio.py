@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 import json
 
-st.set_page_config(page_title="Anzaksen", page_icon=":material/home:", layout="wide")
+st.set_page_config(page_title="Anzaksen", page_icon=":material/home:")
 
 #st.sidebar.radio("Go to section:", ["Introduction", "My Projects", "My Skills", "My Personality & Work Ethic"])
 
