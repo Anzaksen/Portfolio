@@ -91,10 +91,28 @@ with co1:
         </a>
     </p>
     ''', unsafe_allow_html=True)
-    #st.markdown("<p style="color:red; font-size: 24;">[LinkedIn](https://www.linkedin.com/in/alexanderdape)</p>", unsafe_allow_html=True)
 with co2:
-    st.markdown("[Github](https://github.com/anzaksen)")
+    st.markdown('''
+    <p style="color:#ffe34b; font-size:28px; font-weight:bold;">
+        <a href="https://github.com/anzaksen" target="_blank" style="color:#ffe34b; text-decoration:none;">
+            Github
+        </a>
+    </p>
+    ''', unsafe_allow_html=True)
 with co3:
-    st.markdown("[Twitter](https://twitter.com/DAPE_AN)")
+    st.markdown('''
+    <p style="color:#ffe34b; font-size:28px; font-weight:bold;">
+        <a href="https://twitter.com/DAPE_AN" target="_blank" style="color:#ffe34b; text-decoration:none;">
+            Twitter
+        </a>
+    </p>
+    ''', unsafe_allow_html=True)
 with co4:
+    st.markdown('''
+    <p style="color:#ffe34b; font-size:28px; font-weight:bold;">
+        <a href="mailto:dapealexander@gmail.com" target="_blank" style="color:#ffe34b; text-decoration:none;">
+            Gmail
+        </a>
+    </p>
+    ''', unsafe_allow_html=True)
     st.markdown("[Gmail](mailto:dapealexander@gmail.com)")
