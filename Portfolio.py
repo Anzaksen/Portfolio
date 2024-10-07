@@ -43,7 +43,9 @@ st.write(
 # --- SKILLS ---
 st.write("\n")
 st.markdown("# My Skills #")
-st.markdown("---")
+st.markdown("""
+    <hr style="border:2px solid yellow;">
+    """, unsafe_allow_html=True)
 cl1, cl2 = st.columns(2, gap="small", vertical_alignment="center")
 with cl1:
     st.write(
@@ -71,7 +73,9 @@ with cl2:
 # --- About ---
 st.write("\n")
 st.markdown("# My Personality & Work Ethic #")
-st.markdown("---")
+st.markdown("""
+    <hr style="border:2px solid yellow;">
+    """, unsafe_allow_html=True)
 l1, l2 = st.columns(2, gap="small", vertical_alignment="center")
 with l1:
     path = "./Ani.json"
