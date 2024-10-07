@@ -51,7 +51,7 @@ with cl1:
     st.write(
         """
         - Programming: Python (Scikit-learn, Pandas, e.t.c), SQL.
-        - Data Visualization: PowerBi, , Plotly.
+        - Data Visualization: PowerBi, Seaborn, Plotly.
         - Modeling: Machine Learning, Deep learning
         """
     )
