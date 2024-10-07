@@ -52,7 +52,7 @@ with cl1:
         """
     )
 with cl2:
-    path = "./Ani.json"
+    path = "./skill.json"
     with open(path,"r") as file: 
         url = json.load(file) 
     
@@ -84,7 +84,7 @@ with l1:
         loop=True, 
         quality='high'
     )
-with cl2:
+with l2:
     st.write(
         """
        I am a hard worker and always willing to go the extra mile to get the job done. 
