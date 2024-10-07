@@ -15,7 +15,7 @@ with col2:
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write("\n")
-st.subheader("My Projects", anchor=False)
+st.markdown("### My Projects ###")
 st.write(
     """
     - 7 Years experience extracting actionable insights from data
