@@ -50,7 +50,7 @@ with cl1:
         """
     )
 with cl2:
-    st.image('./Ani.gif')
+    st.image('./Ani.gif', width = 300)
 
 
 # --- About ---
