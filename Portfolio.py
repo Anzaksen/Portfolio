@@ -4,8 +4,8 @@ import json
 
 #st.sidebar.radio("Go to section:", ["Introduction", "My Projects", "My Skills", "My Personality & Work Ethic"])
 
-st.markdown("# Introduction #")
-st.markdown("---")
+#st.markdown("# Introduction #")
+#st.markdown("---")
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
 with col1:
