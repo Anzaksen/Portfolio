@@ -58,8 +58,8 @@ with cl2:
     
     st_lottie(url, 
         reverse=True, 
-        height=400, 
-        width=400, 
+        height=250, 
+        width=250, 
         speed=1, 
         loop=True, 
         quality='high'
@@ -84,10 +84,11 @@ st.markdown("# Contact Me #")
 st.markdown("---")
 co1, co2, co3, co4 = st.columns(4, gap="small", vertical_alignment="center")
 with co1:
+    <i style="font-size:24px" class="fa">&#xf003;</i>
     st.markdown('''
     <a href="https://www.linkedin.com/in/alexanderdape" target="_blank">
         <span class="material-icons" style="font-size:48px;color:#4CAF50;">
-            Mail
+           
         </span>
     </a>
     ''', unsafe_allow_html=True)
