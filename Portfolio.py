@@ -84,7 +84,8 @@ st.markdown("# Contact Me #")
 st.markdown("---")
 co1, co2, co3, co4 = st.columns(4, gap="small", vertical_alignment="center")
 with co1:
-    st.markdown("<p style="color:red; font-size: 24;">[LinkedIn](https://www.linkedin.com/in/alexanderdape)</p>', unsafe_allow_html=True")
+    st.markdown('<p style="color:#FF5733; font-size:22px; font-weight:bold;">[LinkedIn](https://www.linkedin.com/in/alexanderdape)</p>', unsafe_allow_html=True)
+    st.markdown("<p style="color:red; font-size: 24;">[LinkedIn](https://www.linkedin.com/in/alexanderdape)</p>", unsafe_allow_html=True)
 with co2:
     st.markdown("[Github](https://github.com/anzaksen)")
 with co3:
