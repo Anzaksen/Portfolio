@@ -1,5 +1,7 @@
 import streamlit as st
 
+#st.sidebar.radio("Go to section:", ["Introduction", "My Projects", "My Skills", "My Personality & Work Ethic"])
+
 st.markdown("# Introduction #")
 st.markdown("---")
 # --- HERO SECTION ---
