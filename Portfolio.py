@@ -102,7 +102,9 @@ with l2:
 
 st.write("\n")
 st.markdown("# Contact Me #")
-st.markdown("---")
+st.markdown("""
+    <hr style="border:2px solid yellow;">
+    """, unsafe_allow_html=True)
 co1, co2, co3, co4 = st.columns(4, gap="small", vertical_alignment="center")
 with co1:
     st.markdown('''
