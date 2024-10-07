@@ -3,6 +3,7 @@ import streamlit as st
 st.sidebar.radio("Go to section:", ["Introduction", "My Projects", "My Skills", "My Personality & Work Ethic"])
 
 st.markdown("# Introduction #")
+ st.markdown("---")
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
 with col1:
@@ -40,7 +41,7 @@ st.write(
 
 # --- About ---
 st.write("\n")
-st.markdown("# My Personality & Work Ethic #", anchor=False)
+st.markdown("# My Personality & Work Ethic #")
 st.write(
     """
    I am a hard worker and always willing to go the extra mile to get the job done. 
