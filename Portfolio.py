@@ -1,4 +1,6 @@
 import streamlit as st
+from streamlit_lottie import st_lottie
+import json
 
 #st.sidebar.radio("Go to section:", ["Introduction", "My Projects", "My Skills", "My Personality & Work Ethic"])
 
@@ -50,7 +52,18 @@ with cl1:
         """
     )
 with cl2:
-    st.image('./Ani.gif', width = 300)
+    path = "<Ani.json>"
+    with open(path,"r") as file: 
+        url = json.load(file) 
+    
+    st_lottie(url, 
+        reverse=True, 
+        height=400, 
+        width=400, 
+        speed=1, 
+        loop=True, 
+        quality='high'
+    )
 
 
 # --- About ---
