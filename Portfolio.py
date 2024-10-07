@@ -27,7 +27,9 @@ with col2:
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write("\n")
-st.markdown("---")
+st.markdown("""
+    <hr style="border:2px solid yellow;">
+    """, unsafe_allow_html=True)
 st.markdown("# My Projects #")
 st.write(
     """
