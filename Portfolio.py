@@ -10,8 +10,7 @@ with col1:
 with col2:
     st.title("Dape Alexander Naanret", anchor=False)
     st.write("Data Analyst,  interested in digging through data and uncovering meaningful insights.")
-    if st.button("✉️ Contact Me"):
-        show_contact_form()
+    st.button("✉️ Contact Me")
 
 
 # --- EXPERIENCE & QUALIFICATIONS ---
