@@ -3,8 +3,6 @@ import re
 import streamlit as st
 import requests
 
-from forms.contact import contact_form
-
 WEBHOOK_URL = st.secrets["WEBHOOK_URL"]
 
 
