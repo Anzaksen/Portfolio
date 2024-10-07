@@ -66,11 +66,11 @@ st.write("\n")
 st.markdown("# Contact Me #")
 st.markdown("---")
 co1, co2, co3, co4 = st.columns(4, gap="small", vertical_alignment="center")
-with c01:
+with co1:
     st.markdown("[LinkedIn](https://www.linkedin.com/in/alexanderdape)")
-with c02:
+with co2:
     st.markdown("[Github](https://github.com/anzaksen)")
-with c03:
+with co3:
     st.markdown("[Twitter](https://twitter.com/DAPE_AN)")
-with c04:
+with co4:
     st.markdown("[Gmail](mailto:dapealexander@gmail.com)")
