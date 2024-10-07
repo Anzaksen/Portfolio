@@ -60,3 +60,17 @@ st.write(
    I am eager to learn more about your company and the role that I can play in its success.
     I am confident that I can be a valuable asset to your team."""
 )
+
+
+st.write("\n")
+st.markdown("# Contact Me #")
+st.markdown("---")
+co1, co2, co3, co4 = st.columns(5, gap="small", vertical_alignment="center")
+with c01:
+    st.markdown("[LinkedIn](https://www.linkedin.com/in/alexanderdape)")
+with c02:
+    st.markdown("[Github](https://github.com/anzaksen)")
+with c03:
+    st.markdown("[Twitter](https://twitter.com/DAPE_AN)")
+with c04:
+    st.markdown("[Gmail](mailto:dapealexander@gmail.com)")
