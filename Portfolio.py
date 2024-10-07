@@ -64,9 +64,7 @@ with col1:
 
 with col2:
     st.title("Dape Alexander Naanret", anchor=False)
-    st.write(
-        "Data Analyst,  interested in digging through data and uncovering meaningful insights."
-    )
+    st.write("Data Analyst,  interested in digging through data and uncovering meaningful insights.")
     if st.button("✉️ Contact Me"):
         show_contact_form()
 
@@ -100,8 +98,8 @@ st.write("\n")
 st.subheader("My Personality & Work Ethic", anchor=False)
 st.write(
     """
-   I am a hard worker and I am always willing to go the extra mile to get the job done. 
-   I am a hard worker, and also a highly motivated and results-oriented individual. 
+   I am a hard worker and always willing to go the extra mile to get the job done. 
+   I am a hard worker and a highly motivated and results-oriented individual. 
    I am eager to learn more about your company and the role that I can play in its success.
     I am confident that I can be a valuable asset to your team."""
 )
