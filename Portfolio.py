@@ -13,7 +13,7 @@ with col1:
 
 with col2:
     st.title("Dape Alexander Naanret", anchor=False)
-    st.write("Data Analyst,  interested in digging through data and uncovering meaningful insights.")
+    st.write("A Data Analyst,  interested in digging through data and uncovering meaningful insights.")
     pdf_file_path = "Alexander_Dape_Resume.pdf"  # Replace 'sample.pdf' with the name of your file
     with open(pdf_file_path, "rb") as pdf_file:
         pdf_bytes = pdf_file.read()
@@ -92,8 +92,7 @@ with l1:
     )
 with l2:
     st.write(
-        """
-       I am a hard worker and always willing to go the extra mile to get the job done. 
+        """ 
        I am a hard worker and a highly motivated and results-oriented individual. 
        I am eager to learn more about your company and the role that I can play in its success.
         I am confident that I can be a valuable asset to your team."""
