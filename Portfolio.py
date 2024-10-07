@@ -70,13 +70,28 @@ with cl2:
 st.write("\n")
 st.markdown("# My Personality & Work Ethic #")
 st.markdown("---")
-st.write(
-    """
-   I am a hard worker and always willing to go the extra mile to get the job done. 
-   I am a hard worker and a highly motivated and results-oriented individual. 
-   I am eager to learn more about your company and the role that I can play in its success.
-    I am confident that I can be a valuable asset to your team."""
-)
+l1, l2 = st.columns(2, gap="small", vertical_alignment="center")
+with l1:
+    path = "./Ani.json"
+    with open(path,"r") as file: 
+        url = json.load(file) 
+    
+    st_lottie(url, 
+        reverse=True, 
+        height=300, 
+        width=250, 
+        speed=1, 
+        loop=True, 
+        quality='high'
+    )
+with cl2:
+    st.write(
+        """
+       I am a hard worker and always willing to go the extra mile to get the job done. 
+       I am a hard worker and a highly motivated and results-oriented individual. 
+       I am eager to learn more about your company and the role that I can play in its success.
+        I am confident that I can be a valuable asset to your team."""
+    )
 
 
 st.write("\n")
