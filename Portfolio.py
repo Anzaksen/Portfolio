@@ -65,7 +65,7 @@ st.write(
 st.write("\n")
 st.markdown("# Contact Me #")
 st.markdown("---")
-co1, co2, co3, co4 = st.columns(5, gap="small", vertical_alignment="center")
+co1, co2, co3, co4 = st.columns(4, gap="small", vertical_alignment="center")
 with c01:
     st.markdown("[LinkedIn](https://www.linkedin.com/in/alexanderdape)")
 with c02:
