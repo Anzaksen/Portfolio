@@ -52,7 +52,7 @@ with cl1:
         """
     )
 with cl2:
-    path = "<Ani.json>"
+    path = "./Ani.json"
     with open(path,"r") as file: 
         url = json.load(file) 
     
@@ -87,7 +87,7 @@ with co1:
     st.markdown('''
     <a href="https://www.linkedin.com/in/alexanderdape" target="_blank">
         <span class="material-icons" style="font-size:48px;color:#4CAF50;">
-            Contact Mail
+            Mail
         </span>
     </a>
     ''', unsafe_allow_html=True)
