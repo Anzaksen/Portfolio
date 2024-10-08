@@ -2,7 +2,14 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 import json
 
-st.set_page_config(page_title="Anzaksen", page_icon=":material/home:")
+st.set_page_config(page_title="Anzaksen", page_icon=":material/bolt:")
+hide_default_format = """
+       <style>
+       #MainMenu {visibility: hidden; }
+       footer {visibility: hidden;}
+       </style>
+       """
+st.markdown(hide_default_format, unsafe_allow_html=True)
 
 #st.sidebar.radio("Go to section:", ["Introduction", "My Projects", "My Skills", "My Personality & Work Ethic"])
 
