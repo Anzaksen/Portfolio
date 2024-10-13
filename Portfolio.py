@@ -16,7 +16,7 @@ st.markdown(hide_default_format, unsafe_allow_html=True)
 #st.markdown("# Introduction #")
 #st.markdown("---")
 # --- HERO SECTION ---
-col1, col2 = st.columns([2,1], gap="small", vertical_alignment="center")
+col1, col2 = st.columns([1.5,1], gap="small", vertical_alignment="center")
 with col1:
     st.image("./profile_image.png", use_column_width=True)
 
