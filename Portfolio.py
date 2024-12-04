@@ -40,9 +40,6 @@ st.markdown("# My Projects #")
 st.markdown("""
     <hr style="border:2px solid yellow;">
     """, unsafe_allow_html=True)
-st.markdown("""
-    <hr style="border:2px solid yellow;">
-    """, unsafe_allow_html=True)
 
 st.markdown('''
     <p style="color:#ffe34b; font-size:15px; font-weight:bold;">
