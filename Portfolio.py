@@ -40,12 +40,90 @@ st.markdown("# My Projects #")
 st.markdown("""
     <hr style="border:2px solid yellow;">
     """, unsafe_allow_html=True)
+st.markdown("""
+    <hr style="border:2px solid yellow;">
+    """, unsafe_allow_html=True)
+
+st.markdown('''
+    <p style="color:#ffe34b; font-size:15px; font-weight:bold;">
+        <a href="https://huggingface.co/spaces/Anzaksen/Hiv-response" target="_blank" style="color:#ffe34b; text-decoration:none;">
+            IISDAS:
+        </a>
+    </p>
+    ''', unsafe_allow_html=True)
 st.write(
     """
-    - 7 Years experience extracting actionable insights from data
-    - Strong hands-on experience and knowledge in Python and Excel
-    - Good understanding of statistical principles and their respective applications
-    - Excellent team-player and displaying a strong sense of initiative on tasks
+    IISDAS is a Student Data Analytics system with 3 distince features:
+    - A dashboard visualizing distributions within student result to identify patterns.
+    - A result predictor which is a CATBOOST model trained to predict students' result based on external factors.
+    - A Large Language Model (LLM) finetued with the results to help educators get answers to questions in a chat-based, used-friendly manner.
+    """
+)
+
+st.markdown('''
+    <p style="color:#ffe34b; font-size:15px; font-weight:bold;">
+        <a href="https://huggingface.co/spaces/Anzaksen/Hiv-response" target="_blank" style="color:#ffe34b; text-decoration:none;">
+            HIV Treament Response Prediction:
+        </a>
+    </p>
+    ''', unsafe_allow_html=True)
+st.write(
+    """
+    - Trained several regression models to predict the CD4 and Viral count of a patient after a sessio of treatment.
+    - Evaluated the models and selected the best 3 to be deployed on huggingface
+    """
+)
+
+st.markdown('''
+    <p style="color:#ffe34b; font-size:15px; font-weight:bold;">
+        <a href="https://huggingface.co/spaces/Anzaksen/breast_cancer_malignancy_detector" target="_blank" style="color:#ffe34b; text-decoration:none;">
+            Breast Cancer Malignancy Detector:
+        </a>
+    </p>
+    ''', unsafe_allow_html=True)
+st.write(
+    """
+    - Trained a Random Forest Classifier to detect if a cancer is malign on benignant using several paraemters
+    - Deloyed the model on Huggingface
+    """
+)
+
+st.markdown('''
+    <p style="color:#ffe34b; font-size:15px; font-weight:bold;">
+        <a href="https://github.com/Anzaksen/world_population" target="_blank" style="color:#ffe34b; text-decoration:none;">
+            World Population:
+        </a>
+    </p>
+    ''', unsafe_allow_html=True)
+st.write(
+    """
+    A dashboard showing the world population trend from 1970 to 2022.
+    """
+)
+
+st.markdown('''
+    <p style="color:#ffe34b; font-size:15px; font-weight:bold;">
+        <a href="https://github.com/Anzaksen/Suicide_rates_1985_to_2016" target="_blank" style="color:#ffe34b; text-decoration:none;">
+            Suicide Rates:
+        </a>
+    </p>
+    ''', unsafe_allow_html=True)
+st.write(
+    """
+    Time series analysis of reported suicide cases from 1985 to 2016.
+    """
+)
+
+st.markdown('''
+    <p style="color:#ffe34b; font-size:15px; font-weight:bold;">
+        <a href="https://github.com/Anzaksen/Ky_louisville_Police_Driver_Data_Analysis" target="_blank" style="color:#ffe34b; text-decoration:none;">
+            Kentucky Open Policing:
+        </a>
+    </p>
+    ''', unsafe_allow_html=True)
+st.write(
+    """
+    EDA on open polocing data on police stops in kentucky, louisville from 2015 to 2018.
     """
 )
 
