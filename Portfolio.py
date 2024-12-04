@@ -50,23 +50,23 @@ st.markdown('''
     ''', unsafe_allow_html=True)
 st.write(
     """
-    IISDAS is a Student Data Analytics system with 3 distince features:
-    - A dashboard visualizing distributions within student result to identify patterns.
-    - A result predictor which is a CATBOOST model trained to predict students' result based on external factors.
-    - A Large Language Model (LLM) finetued with the results to help educators get answers to questions in a chat-based, used-friendly manner.
+    IISDAS is a Student Data Analytics system with 3 distinct features:
+    - A Dashboard visualizing distributions within student results to identify patterns.
+    - A result predictor which is a CATBOOST model trained to predict students' results based on external factors.
+    - A Large Language Model (LLM) finetuned with the results to help educators get answers to questions in a chat-based, user-friendly manner.
     """
 )
 
 st.markdown('''
     <p style="color:#ffe34b; font-size:15px; font-weight:bold;">
         <a href="https://huggingface.co/spaces/Anzaksen/Hiv-response" target="_blank" style="color:#ffe34b; text-decoration:none;">
-            HIV Treament Response Prediction:
+            HIV Treatment Response Prediction:
         </a>
     </p>
     ''', unsafe_allow_html=True)
 st.write(
     """
-    - Trained several regression models to predict the CD4 and Viral count of a patient after a sessio of treatment.
+    - Trained several regression models to predict a patient's CD4 and Viral count  after a session of treatment.
     - Evaluated the models and selected the best 3 to be deployed on huggingface
     """
 )
@@ -80,8 +80,8 @@ st.markdown('''
     ''', unsafe_allow_html=True)
 st.write(
     """
-    - Trained a Random Forest Classifier to detect if a cancer is malign on benignant using several paraemters
-    - Deloyed the model on Huggingface
+    - Trained a Random Forest Classifier to detect if a cancer is malign or benignant using several parameters.
+    - Deloyed the model on Huggingface.
     """
 )
 
