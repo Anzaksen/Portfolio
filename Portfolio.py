@@ -21,7 +21,7 @@ with col1:
     st.image("./Dapezik.png", use_container_width=True)
 
 with col2:
-    st.title("Dape Alexander Naanret", anchor=False)
+    st.title("Engr. Dape Alexander Naanret", anchor=False)
     st.write("A Data Analyst,  interested in digging through data and uncovering meaningful insights.")
     pdf_file_path = "Alexander_Dape_Resume.pdf"  # Replace 'sample.pdf' with the name of your file
     with open(pdf_file_path, "rb") as pdf_file:
