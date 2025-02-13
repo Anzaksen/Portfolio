@@ -128,7 +128,7 @@ st.write(
 st.write("\n")
 st.markdown("# My Skills #")
 st.markdown("""
-    <hr style="border:2px #6d8d8c;">
+    <hr style="border:2px solid #6d8d8c;">
     """, unsafe_allow_html=True)
 cl1, cl2 = st.columns(2, gap="small", vertical_alignment="center")
 with cl1:
@@ -158,7 +158,7 @@ with cl2:
 st.write("\n")
 st.markdown("# My Personality & Work Ethic #")
 st.markdown("""
-    <hr style="border:2px #6d8d8c;">
+    <hr style="border:2px solid #6d8d8c;">
     """, unsafe_allow_html=True)
 l1, l2 = st.columns(2, gap="small", vertical_alignment="center")
 with l1:
@@ -186,7 +186,7 @@ with l2:
 st.write("\n")
 st.markdown("# Contact Me #")
 st.markdown("""
-    <hr style="border:2px #6d8d8c;">
+    <hr style="border:2px solid #6d8d8c;">
     """, unsafe_allow_html=True)
 co1, co2, co3, co4 = st.columns(4, gap="small", vertical_alignment="center")
 with co1:
