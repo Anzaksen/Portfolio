@@ -43,7 +43,7 @@ st.markdown("""
 
 st.markdown('''
     <p style="color:#6d8d8c; font-size:15px; font-weight:bold;">
-        <a href="https://huggingface.co/spaces/Anzaksen/Hiv-response" target="_blank" style="color:#ffe34b; text-decoration:none;">
+        <a href="https://huggingface.co/spaces/Anzaksen/Hiv-response" target="_blank" style="color:#6d8d8c; text-decoration:none;">
             IISDAS:
         </a>
     </p>
@@ -59,7 +59,7 @@ st.write(
 
 st.markdown('''
     <p style="color:#6d8d8c; font-size:15px; font-weight:bold;">
-        <a href="https://huggingface.co/spaces/Anzaksen/Hiv-response" target="_blank" style="color:#ffe34b; text-decoration:none;">
+        <a href="https://huggingface.co/spaces/Anzaksen/Hiv-response" target="_blank" style="color:#6d8d8c; text-decoration:none;">
             HIV Treatment Response Prediction:
         </a>
     </p>
@@ -73,7 +73,7 @@ st.write(
 
 st.markdown('''
     <p style="color:#6d8d8c; font-size:15px; font-weight:bold;">
-        <a href="https://huggingface.co/spaces/Anzaksen/breast_cancer_malignancy_detector" target="_blank" style="color:#ffe34b; text-decoration:none;">
+        <a href="https://huggingface.co/spaces/Anzaksen/breast_cancer_malignancy_detector" target="_blank" style="color:#6d8d8c; text-decoration:none;">
             Breast Cancer Malignancy Detector:
         </a>
     </p>
@@ -87,7 +87,7 @@ st.write(
 
 st.markdown('''
     <p style="color:#6d8d8c; font-size:15px; font-weight:bold;">
-        <a href="https://github.com/Anzaksen/world_population" target="_blank" style="color:#ffe34b; text-decoration:none;">
+        <a href="https://github.com/Anzaksen/world_population" target="_blank" style="color:#6d8d8c; text-decoration:none;">
             World Population:
         </a>
     </p>
@@ -100,7 +100,7 @@ st.write(
 
 st.markdown('''
     <p style="color:#6d8d8c; font-size:15px; font-weight:bold;">
-        <a href="https://github.com/Anzaksen/Suicide_rates_1985_to_2016" target="_blank" style="color:#ffe34b; text-decoration:none;">
+        <a href="https://github.com/Anzaksen/Suicide_rates_1985_to_2016" target="_blank" style="color:#6d8d8c; text-decoration:none;">
             Suicide Rates:
         </a>
     </p>
@@ -113,7 +113,7 @@ st.write(
 
 st.markdown('''
     <p style="color:#6d8d8c; font-size:15px; font-weight:bold;">
-        <a href="https://github.com/Anzaksen/Ky_louisville_Police_Driver_Data_Analysis" target="_blank" style="color:#ffe34b; text-decoration:none;">
+        <a href="https://github.com/Anzaksen/Ky_louisville_Police_Driver_Data_Analysis" target="_blank" style="color:#6d8d8c; text-decoration:none;">
             Kentucky Open Policing:
         </a>
     </p>
@@ -192,7 +192,7 @@ co1, co2, co3, co4 = st.columns(4, gap="small", vertical_alignment="center")
 with co1:
     st.markdown('''
     <p style="color:#6d8d8c; font-size:28px; font-weight:bold;">
-        <a href="https://www.linkedin.com/in/alexanderdape" target="_blank" style="color:#ffe34b; text-decoration:none;">
+        <a href="https://www.linkedin.com/in/alexanderdape" target="_blank" style="color:#6d8d8c; text-decoration:none;">
             LinkedIn
         </a>
     </p>
@@ -200,7 +200,7 @@ with co1:
 with co2:
     st.markdown('''
     <p style="color:#6d8d8c; font-size:28px; font-weight:bold;">
-        <a href="https://github.com/anzaksen" target="_blank" style="color:#ffe34b; text-decoration:none;">
+        <a href="https://github.com/anzaksen" target="_blank" style="color:#6d8d8c; text-decoration:none;">
             Github
         </a>
     </p>
@@ -208,7 +208,7 @@ with co2:
 with co3:
     st.markdown('''
     <p style="color:#6d8d8c; font-size:28px; font-weight:bold;">
-        <a href="https://twitter.com/DAPE_AN" target="_blank" style="color:#ffe34b; text-decoration:none;">
+        <a href="https://twitter.com/DAPE_AN" target="_blank" style="color:#6d8d8c; text-decoration:none;">
             Twitter
         </a>
     </p>
@@ -216,7 +216,7 @@ with co3:
 with co4:
     st.markdown('''
     <p style="color:#6d8d8c; font-size:28px; font-weight:bold;">
-        <a href="mailto:dapealexander@gmail.com" target="_blank" style="color:#ffe34b; text-decoration:none;">
+        <a href="mailto:dapealexander@gmail.com" target="_blank" style="color:#6d8d8c; text-decoration:none;">
             Gmail
         </a>
     </p>
