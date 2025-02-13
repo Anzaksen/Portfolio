@@ -38,11 +38,11 @@ with col2:
 st.write("\n")
 st.markdown("# My Projects #")
 st.markdown("""
-    <hr style="border:2px solid yellow;">
+    <hr style="border:2px #6d8d8c;">
     """, unsafe_allow_html=True)
 
 st.markdown('''
-    <p style="color:#ffe34b; font-size:15px; font-weight:bold;">
+    <p style="color:#6d8d8c; font-size:15px; font-weight:bold;">
         <a href="https://huggingface.co/spaces/Anzaksen/Hiv-response" target="_blank" style="color:#ffe34b; text-decoration:none;">
             IISDAS:
         </a>
@@ -58,7 +58,7 @@ st.write(
 )
 
 st.markdown('''
-    <p style="color:#ffe34b; font-size:15px; font-weight:bold;">
+    <p style="color:#6d8d8c; font-size:15px; font-weight:bold;">
         <a href="https://huggingface.co/spaces/Anzaksen/Hiv-response" target="_blank" style="color:#ffe34b; text-decoration:none;">
             HIV Treatment Response Prediction:
         </a>
@@ -72,7 +72,7 @@ st.write(
 )
 
 st.markdown('''
-    <p style="color:#ffe34b; font-size:15px; font-weight:bold;">
+    <p style="color:#6d8d8c; font-size:15px; font-weight:bold;">
         <a href="https://huggingface.co/spaces/Anzaksen/breast_cancer_malignancy_detector" target="_blank" style="color:#ffe34b; text-decoration:none;">
             Breast Cancer Malignancy Detector:
         </a>
@@ -86,7 +86,7 @@ st.write(
 )
 
 st.markdown('''
-    <p style="color:#ffe34b; font-size:15px; font-weight:bold;">
+    <p style="color:#6d8d8c; font-size:15px; font-weight:bold;">
         <a href="https://github.com/Anzaksen/world_population" target="_blank" style="color:#ffe34b; text-decoration:none;">
             World Population:
         </a>
@@ -99,7 +99,7 @@ st.write(
 )
 
 st.markdown('''
-    <p style="color:#ffe34b; font-size:15px; font-weight:bold;">
+    <p style="color:#6d8d8c; font-size:15px; font-weight:bold;">
         <a href="https://github.com/Anzaksen/Suicide_rates_1985_to_2016" target="_blank" style="color:#ffe34b; text-decoration:none;">
             Suicide Rates:
         </a>
@@ -112,7 +112,7 @@ st.write(
 )
 
 st.markdown('''
-    <p style="color:#ffe34b; font-size:15px; font-weight:bold;">
+    <p style="color:#6d8d8c; font-size:15px; font-weight:bold;">
         <a href="https://github.com/Anzaksen/Ky_louisville_Police_Driver_Data_Analysis" target="_blank" style="color:#ffe34b; text-decoration:none;">
             Kentucky Open Policing:
         </a>
@@ -128,7 +128,7 @@ st.write(
 st.write("\n")
 st.markdown("# My Skills #")
 st.markdown("""
-    <hr style="border:2px solid yellow;">
+    <hr style="border:2px #6d8d8c;">
     """, unsafe_allow_html=True)
 cl1, cl2 = st.columns(2, gap="small", vertical_alignment="center")
 with cl1:
@@ -158,7 +158,7 @@ with cl2:
 st.write("\n")
 st.markdown("# My Personality & Work Ethic #")
 st.markdown("""
-    <hr style="border:2px solid yellow;">
+    <hr style="border:2px #6d8d8c;">
     """, unsafe_allow_html=True)
 l1, l2 = st.columns(2, gap="small", vertical_alignment="center")
 with l1:
@@ -186,7 +186,7 @@ with l2:
 st.write("\n")
 st.markdown("# Contact Me #")
 st.markdown("""
-    <hr style="border:2px solid yellow;">
+    <hr style="border:2px #6d8d8c;">
     """, unsafe_allow_html=True)
 co1, co2, co3, co4 = st.columns(4, gap="small", vertical_alignment="center")
 with co1:
