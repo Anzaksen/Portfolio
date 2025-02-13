@@ -18,7 +18,7 @@ st.markdown(hide_default_format, unsafe_allow_html=True)
 # --- HERO SECTION ---
 col1, col2 = st.columns([1.5,1], gap="small", vertical_alignment="center")
 with col1:
-    st.image("./Dapezik.png", use_container_width=True)
+    st.image("Photoroom-20250213_103621.png", use_container_width=True)
 
 with col2:
     st.title("Engr. Dape Alexander Naanret", anchor=False)
