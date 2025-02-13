@@ -38,7 +38,7 @@ with col2:
 st.write("\n")
 st.markdown("# My Projects #")
 st.markdown("""
-    <hr style="border:2px #6d8d8c;">
+    <hr style="border:2px solid #6d8d8c;">
     """, unsafe_allow_html=True)
 
 st.markdown('''
