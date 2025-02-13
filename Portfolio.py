@@ -191,7 +191,7 @@ st.markdown("""
 co1, co2, co3, co4 = st.columns(4, gap="small", vertical_alignment="center")
 with co1:
     st.markdown('''
-    <p style="color:#ffe34b; font-size:28px; font-weight:bold;">
+    <p style="color:#6d8d8c; font-size:28px; font-weight:bold;">
         <a href="https://www.linkedin.com/in/alexanderdape" target="_blank" style="color:#ffe34b; text-decoration:none;">
             LinkedIn
         </a>
@@ -199,7 +199,7 @@ with co1:
     ''', unsafe_allow_html=True)
 with co2:
     st.markdown('''
-    <p style="color:#ffe34b; font-size:28px; font-weight:bold;">
+    <p style="color:#6d8d8c; font-size:28px; font-weight:bold;">
         <a href="https://github.com/anzaksen" target="_blank" style="color:#ffe34b; text-decoration:none;">
             Github
         </a>
@@ -207,7 +207,7 @@ with co2:
     ''', unsafe_allow_html=True)
 with co3:
     st.markdown('''
-    <p style="color:#ffe34b; font-size:28px; font-weight:bold;">
+    <p style="color:#6d8d8c; font-size:28px; font-weight:bold;">
         <a href="https://twitter.com/DAPE_AN" target="_blank" style="color:#ffe34b; text-decoration:none;">
             Twitter
         </a>
@@ -215,7 +215,7 @@ with co3:
     ''', unsafe_allow_html=True)
 with co4:
     st.markdown('''
-    <p style="color:#ffe34b; font-size:28px; font-weight:bold;">
+    <p style="color:#6d8d8c; font-size:28px; font-weight:bold;">
         <a href="mailto:dapealexander@gmail.com" target="_blank" style="color:#ffe34b; text-decoration:none;">
             Gmail
         </a>
