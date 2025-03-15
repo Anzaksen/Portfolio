@@ -207,7 +207,7 @@ with co2:
 with co3:
     st.markdown('''
     <p style="color:#6d8d8c; font-size:28px; font-weight:bold;">
-        <a href="https://twitter.com/DAPE_AN" target="_blank" style="color:#6d8d8c; text-decoration:none;">
+        <a href="https://twitter.com/anzaksen" target="_blank" style="color:#6d8d8c; text-decoration:none;">
             Twitter
         </a>
     </p>
