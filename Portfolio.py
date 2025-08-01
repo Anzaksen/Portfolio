@@ -58,15 +58,65 @@ st.write(
 
 st.markdown('''
     <p style="color:#6d8d8c; font-size:15px; font-weight:bold;">
-        <a href="https://huggingface.co/spaces/Anzaksen/Hiv-response" target="_blank" style="color:#6d8d8c; text-decoration:none;">
-            HIV Treatment Response Prediction:
+        <a href="https://huggingface.co/spaces/Anzaksen/breast_cancer_malignancy_detector" target="_blank" style="color:#6d8d8c; text-decoration:none;">
+            Breast Cancer Malignancy Detector:
         </a>
     </p>
     ''', unsafe_allow_html=True)
 st.write(
     """
-    - Trained several regression models to predict a patient's CD4 and Viral count  after a session of treatment.
-    - Evaluated the models and selected the best 3 to be deployed on huggingface
+    - Trained a Random Forest Classifier to detect if a cancer is malign or benignant using several parameters.
+    - Deloyed the model on Huggingface.
+    """
+)
+
+st.markdown('''
+    <p style="color:#6d8d8c; font-size:15px; font-weight:bold;">
+        <a href="" target="_blank" style="color:#6d8d8c; text-decoration:none;">
+            Supplier Relationship Management and Supply Chain Efficiency in Abuja:
+        </a>
+    </p>
+    ''', unsafe_allow_html=True)
+st.write(
+    """
+    - Analyzed the impact of trust-based relationships, information sharing, and supplier collaboration on the supply chain efficiency of manufacturing firms in Abuja.
+    - Used descriptive statistics and logistic regression to quantify the relationship between supplier practices and key performance metrics like cost, lead time, quality, and flexibility.
+    - Identified information sharing as the most significant driver of supply chain efficiency, outperforming trust and collaboration in predictive strength.
+    """
+)
+
+st.markdown('''
+    <p style="color:#6d8d8c; font-size:15px; font-weight:bold;">
+        <a href="" target="_blank" style="color:#6d8d8c; text-decoration:none;">
+            Forecasting Electricity Prices in Germany Using Machine Learning:
+        </a>
+    </p>
+    ''', unsafe_allow_html=True)
+st.write(
+    """
+    - Conducted time-series analysis on historical electricity price data from the German market to build predictive models.
+    - Implemented and evaluated four machine learning models: Linear Regression, Decision Tree, Random Forest, and XGBoost.
+    - Assessed and compared model performance using metrics such as RMSE (Root Mean Squared Error) and MAE (Mean Absolute Error).
+    - Identified the most accurate model for price forecasting to support decision-making in energy trading and consumption planning.
+    - Provided insights on data-driven energy pricing strategies and model suitability for dynamic electricity markets.
+    """
+)
+
+st.markdown('''
+    <p style="color:#6d8d8c; font-size:15px; font-weight:bold;">
+        <a href="" target="_blank" style="color:#6d8d8c; text-decoration:none;">
+            CNN Architectures for Plant Disease Classification: A Comparative Study:
+        </a>
+    </p>
+    ''', unsafe_allow_html=True)
+st.write(
+    """
+    - Evaluated five CNN architectures (VGG16, DenseNet121, MobileNetV3, EfficientNetB0, NASNetMobile) on the PlantVillage dataset for multi-class plant disease recognition.
+    - Trained models using both fine-tuning and feature extraction strategies at different input resolutions (128×128 and 160×160).
+    - Applied post-training quantization using TensorFlow Lite to reduce model size and optimize for deployment on mobile and embedded systems.
+    - Benchmarked models on three metrics: validation accuracy, inference time (ms), and model size (MB).
+    - Identified DenseNet121 as the most balanced model post-quantization, achieving high accuracy with reduced storage requirements.
+    - Highlighted critical trade-offs between model performance and resource constraints, offering recommendations for real-world agricultural AI deployment.
     """
 )
 
