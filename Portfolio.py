@@ -56,19 +56,6 @@ st.write(
     """
 )
 
-st.markdown('''
-    <p style="color:#6d8d8c; font-size:15px; font-weight:bold;">
-        <a href="https://huggingface.co/spaces/Anzaksen/breast_cancer_malignancy_detector" target="_blank" style="color:#6d8d8c; text-decoration:none;">
-            Breast Cancer Malignancy Detector:
-        </a>
-    </p>
-    ''', unsafe_allow_html=True)
-st.write(
-    """
-    - Trained a Random Forest Classifier to detect if a cancer is malign or benignant using several parameters.
-    - Deloyed the model on Huggingface.
-    """
-)
 
 st.markdown('''
     <p style="color:#6d8d8c; font-size:15px; font-weight:bold;">
