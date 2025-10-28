@@ -27,7 +27,7 @@ with col2:
         pdf_bytes = pdf_file.read()
         st.download_button(label="Download My Resume",
                            data=pdf_bytes,
-                           file_name="Alexander_Dape_CV.pdf",
+                           file_name="Dape_Alexander_CV.pdf",
                            mime="application/pdf")
     
         
@@ -257,4 +257,5 @@ with co4:
         </a>
     </p>
     ''', unsafe_allow_html=True)
+
 
